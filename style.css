@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Rajdhani:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    background-color: whitesmoke;
+    background-image: url("./img/pixlr-bg-result.png");
+    background-repeat: no-repeat;
+    background-position: 580px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header {
+    padding-left: 112px;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #1E1E2A;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #1E1E2A;
+}
+
+header  img {
+    width: 50px;
+}
+
+.social-midia {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.social-midia a {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*                         Main                       */
+
+
+
+main {
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 400px 300px;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: rgb(31,33,51);
+    color: seashell;
+}
+
+.Um-pouco-sobre-mim {
+    position: relative;
+    justify-content: space-evenly;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    
+}
+
+.Um-pouco-sobre-mim > h2{
+    color: seashell;
+}
+
+.card-container-P {
+    display: grid;
+    row-gap: 100px;
+    justify-content: center;
+    margin-right: 100px;
+    
+}
+
+
+.cardP1 {
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-template-columns: 300px 100px;
+    background-image: url(./img/Idoso.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.cardP2 {
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-template-columns: 300px 100px;
+    background-image: url(./img/abraco.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.card {
+    width: 300px;
+    height: 300px;
+    border-radius: 100% ;
+    display: grid;
+    grid-template-columns: 300px 100px;
+    justify-content: space-evenly;
+    background-image: url(./img/Tesoura-De-Ouro-E-Rubi-2014.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100% ;
+    display: grid;
+    grid-template-columns: 300px 100px;
+    justify-content: space-evenly;
+    background-image: url(./img/Portsio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100% ;
+    display: grid;
+    grid-template-columns: 300px 100px;
+    justify-content: space-evenly;
+    background-image: url(./img/Oscar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100% ;
+    display: grid;
+    grid-template-columns: 300px 100px;
+    justify-content: space-evenly;
+    background-image: url(./img/Cosmo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #1E1E2A;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card-text-P > p {
+    width: 500px;
+    height: auto;
+    justify-content: center;
+    padding-right: 500px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.card-text {
+    position: relative;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.card-wrapperr {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-wrapper > h2 {
+    color: seashell;
+}
+
+.card-wrapperr::before {
+    content: "";
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid white;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card-wrapperr h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.cardP1:hover {
+    filter: unset;
+}
+
+.cardP2:hover {
+    filter: unset;
+}
+
+.card:hover {
+    filter: unset;
+}
+
+.card1:hover {
+    filter: unset;
+}
+
+.card2:hover {
+    filter: unset;
+}
+
+.card3:hover {
+    filter: unset;
+}
+
+footer {
+    width: 100vw;
+    padding-left: 100px;
+    background-color: rgb(31,33,51);
+    border-top: seashell solid 1px;
+}
+
+footer > ul {
+    display: inline;
+    list-style: none;
+    color: seashell ;
+}
+
+footer > div > ul > li {
+    display: inline;
+    padding: 5px;
+    color: seashell
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
