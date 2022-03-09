@@ -1,0 +1,849 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Rajdhani:wght@300&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    background-image: url("./img/pixlr-bg-result.png");
+    background-repeat: no-repeat;
+    background-position: 580px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding-left: 70px;
+    width: 50%;
+}
+
+h1 {
+    width: 100%;
+    max-width: 642.5px;
+    font-size: 5.0rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #1E1E2A;
+}
+
+h2 {
+    width: 100%;
+    max-width: 642.5px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #1E1E2A;
+}
+
+.header > div > a > img {
+    width: 100%;
+    max-width: 50px;
+    display: flex;
+}
+
+.social-midia {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.social-midia a {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*                         Main                       */
+
+
+
+main {
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: stretch;
+    justify-items: center;
+    background-color: rgb(31,33,51);
+    color: seashell;
+    padding: 0;
+    margin: 0;
+}
+
+.Um-pouco-sobre-mim {
+    width: 90%;
+    display: grid;
+    padding: 50px 0px 200px 0px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.Um-pouco-sobre-mim > h2{
+    color: seashell;
+    display: grid;
+    font-size: 2.5rem;
+}
+
+.Um-pouco-sobre-mim > p{
+    font-size: 1.8rem;
+}
+
+.projetos {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    justify-items: center;
+    border-bottom: 2px seashell solid ;
+    color: seashell;
+    font-size: 2.5rem;
+    max-width: 642.5px;
+    width: 90%
+}
+
+.card-container-P1 {
+    width: 75%;
+    max-width: 500px;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.card-container-P2 {
+    width: 75%;
+    max-width: 500px;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.card-wrapper-P {
+    color: rgb(31,33,51);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.0rem;
+    letter-spacing: 4px;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    position: relative;
+}
+
+.card-text-P{
+    width: 100%;
+    height: auto;
+    padding: 0 0 150px 0;
+    margin: 0;
+}
+
+.card-text-P > p{
+    font-size: 1.4rem;
+}
+
+
+.cardP1 {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    background-image: url(./img/Idoso.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0.5);
+    transition: 0.5s ease-in-out;
+    
+}
+
+.cardP2 {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    background-image: url(./img/abraco.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0.5);
+    transition: 0.5s ease-in-out;
+   
+}
+
+.card-wrapperr {
+    text-align: start;
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.premiacoes {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 4;
+    justify-items: center;
+    border-bottom: 2px seashell solid ;
+    color: seashell;
+    font-size: 2.5rem;
+    max-width: 642.5px;
+    width: 90%
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Tesoura-De-Ouro-E-Rubi-2014.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    transition: 0.5s ease-in-out;
+    
+}
+
+.card1 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Portsio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.card2 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Oscar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.card3 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Cosmo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+   
+}
+
+.card4 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Premio-exito.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+}
+
+.card5 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/7Campeonato-hair-brasil-2008.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+}
+
+.card6 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Professional-Fair-2005.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+}
+
+.card7 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Premio-enfase-nacional-2009.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+}
+
+.card8 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Hair-brasil-campeonato-2012.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+}
+
+.card9 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Professional-fair-2006.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+}
+
+.card10 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Preimo-maos-de-ouro-e-esmeralda-2014.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+}
+
+.card11 {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border-radius: 100% ;
+    justify-content: space-evenly;
+    background-image: url(./img/Prata-casa-diamante-mg-ivan-candido.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1.0);
+    color: #1E1E2A;
+    transition: 0.5s ease-in-out;
+}
+
+.card-text {
+    width: 200px;
+    position: relative;
+    display: grid;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: 1.4rem;
+}
+
+.card-wrapper {
+    width: 350px;
+    padding-bottom: 20px
+}
+
+.card-wrapper h2 {
+    display: grid;
+    justify-content: space-around;
+    color: seashell;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card-wrapper::before {
+    content: "";
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    border: 1px solid white;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.cardP1:hover {
+    filter: unset;
+}
+
+.cardP2:hover {
+    filter: unset;
+}
+
+.card:hover {
+    filter: unset;
+}
+
+.card1:hover {
+    filter: unset;
+}
+
+.card2:hover {
+    filter: unset;
+}
+
+.card3:hover {
+    filter: unset;
+}
+
+.card4:hover {
+    filter: unset;
+}
+
+.card5:hover {
+    filter: unset;
+}
+
+.card6:hover {
+    filter: unset;
+}
+
+.card7:hover {
+    filter: unset;
+}
+
+.card8:hover {
+    filter: unset;
+}
+
+.card9:hover {
+    filter: unset;
+}
+
+.card10:hover {
+    filter: unset;
+}
+
+.card11:hover {
+    filter: unset;
+}
+
+footer {
+    width: 100vw;
+    padding-left: 100px;
+    background-color: rgb(31,33,51);
+    border-top: seashell solid 1px;
+    padding-left: 0;
+    margin: 0;
+
+}
+
+footer > ul {
+    list-style: none;
+    font-size: 1.3rem;
+    color: seashell;
+    margin:18px 0 0 0;
+    padding: 0 0 18px 18px;
+}
+
+@media (max-width: 1075px){
+    html{
+        font-size: 60%;
+    }
+
+    .card-container-P1 {
+        display: grid;
+        grid-column: 1 /3;
+        grid-row: 3;
+    }
+    
+    .card-container-P2 {
+        display: grid;
+        grid-column: 1 / 3;
+        grid-row: 4;
+    }
+    .premiacoes {
+        display: grid;
+        grid-column: 1 / 3;
+        grid-row: 5;
+        justify-items: center;
+        border-bottom: 2px seashell solid ;
+        color: seashell;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1050px){
+    .header-container {
+        height: 100vh;
+        width: 100vw;
+        background-color: whitesmoke;
+        background-image: url(./img/pixlr-bg-result.png);
+        background-repeat: no-repeat;
+        background-position: 450px;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        padding-left: 30px;
+        width: 50%;
+    }
+
+   
+}
+
+@media (max-width: 910px){
+    .header-container {
+        height: 80vh;
+        width: 100vw;
+        background-color: whitesmoke;
+        background-image: url(./img/pixlr-bg-result.png);
+        background-repeat: no-repeat;
+        background-position: 470px;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header {
+        padding-left: 15px;
+        width: 50%;
+    }
+
+    
+    
+    .card-container {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 6 ;
+        justify-items: center;
+    }
+    .card-container1 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 7 ;
+        justify-items: center;
+    }
+    .card-container2 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 8 ;
+        justify-items: center;
+    }
+    .card-container3 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 9 ;
+        justify-items: center;
+    }
+    .card-container4 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 10 ;
+        justify-items: center;
+    }
+    .card-container5 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 11 ;
+        justify-items: center;
+    }
+    .card-container6 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 12 ;
+        justify-items: center;
+    }
+    .card-container7 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 13 ;
+        justify-items: center;
+    }
+    .card-container8 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 14 ;
+        justify-items: center;
+    }
+    .card-container9 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 15 ;
+        justify-items: center;
+    }
+    .card-container10 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 16 ;
+        justify-items: center;
+    }
+    .card-container11 {
+        display: grid ;
+        grid-column: 1 / 3 ;
+        grid-row: 17 ;
+        justify-items: center;
+    }
+}
+@media (max-width: 835px){
+    .header-container {
+        height: 60vh;
+        width: 100vw;
+        background-color: whitesmoke;
+        background-image: url(./img/pixlr-bg-result.png);
+        background-repeat: no-repeat;
+        background-position: 500px;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+    .header {
+        padding-left: 15px;
+        width: 50%;
+    }
+}
+@media (max-width: 780px){
+    .header-container {
+        height: 60vh;
+        width: 100vw;
+        background-color: whitesmoke;
+        background-image: url(./img/pixlr-bg-result.png);
+        background-repeat: no-repeat;
+        background-position: 480px;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+    .header {
+        padding-left: 15px;
+        width: 50%;
+    }
+}
+@media (max-width: 760px){
+    .header-container {
+        height: 60vh;
+        width: 100vw;
+        background-color: whitesmoke;
+        background-image: url(./img/pixlr-bg-result.png);
+        background-repeat: no-repeat;
+        background-position: 350px;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+    .header {
+        padding-left: 15px;
+        width: 50%;
+    }
+}
+@media (max-width: 630px){
+    .header-container {
+        height: 60vh;
+        width: 100vw;
+        background-color: whitesmoke;
+        background-image: url(./img/pixlr-bg-result.png);
+        background-repeat: no-repeat;
+        background-position: 300px;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+    .card-container-P1 {
+        width: 75%;
+        max-width: 500px;
+        height: 300px;
+        display: grid;
+        justify-content: center;
+        padding: 100px 0px 100px 0px;
+    }
+    
+    .card-container-P2 {
+        width: 75%;
+        max-width: 500px;
+        display: grid;
+        height: 300px;
+        justify-content: center;
+        padding: 100px 0px 200px 0px;
+    }
+    .cardP1 {
+        width: 100%;
+        height: 280px;
+        display: grid;
+        background-image: url(./img/Idoso.jpg);
+        background-position: center;
+        background-size: cover;
+        filter: grayscale(0.5);
+        transition: 0.5s ease-in-out;
+        
+    }
+    
+    .cardP2 {
+        width: 100%;
+        height: 280px;
+        display: grid;
+        background-image: url(./img/abraco.jpg);
+        background-position: center;
+        background-size: cover;
+        filter: grayscale(0.5);
+        transition: 0.5s ease-in-out;
+       
+    }
+}
+@media (max-width: 575px){
+    .header-container {
+        height: 60vh;
+        width: 100vw;
+        background-color: whitesmoke;
+        background-image: url(./img/pixlr-bg-result.png);
+        background-position: 0px;
+        background-size: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+    .header {
+        width: 80%;
+    }
+    .cardP1 {
+        width: 100%;
+        height: 250px;
+        display: grid;
+        background-image: url(./img/Idoso.jpg);
+        background-position: center;
+        background-size: cover;
+        filter: grayscale(0.5);
+        transition: 0.5s ease-in-out;
+        
+    }
+    
+    .cardP2 {
+        width: 100%;
+        height: 250px;
+        display: grid;
+        background-image: url(./img/abraco.jpg);
+        background-position: center;
+        background-size: cover;
+        filter: grayscale(0.5);
+        transition: 0.5s ease-in-out;
+       
+    }
+}
+@media (max-width: 375px){
+    .card-container-P1 {
+        width: 85%;
+        max-width: 500px;
+        height: 300px;
+        display: grid;
+        justify-content: center;
+        padding: 100px 0px 100px 0px;
+    }
+    
+    .card-container-P2 {
+        width: 85%;
+        max-width: 500px;
+        display: grid;
+        height: 300px;
+        justify-content: center;
+        padding: 100px 0px 200px 0px;
+    }
+
+    .cardP1 {
+        width: 100%;
+        height: 200px;
+        display: grid;
+        background-image: url(./img/Idoso.jpg);
+        background-position: center;
+        background-size: cover;
+        filter: grayscale(0.5);
+        transition: 0.5s ease-in-out;
+        
+    }
+    
+    .cardP2 {
+        width: 100%;
+        height: 200px;
+        display: grid;
+        background-image: url(./img/abraco.jpg);
+        background-position: center;
+        background-size: cover;
+        filter: grayscale(0.5);
+        transition: 0.5s ease-in-out;
+       
+    }
+}
