@@ -78,7 +78,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
-    align-items: stretch;
+    align-items: center;
     justify-items: center;
     background-color: rgb(31,33,51);
     color: seashell;
@@ -113,7 +113,7 @@ main {
     color: seashell;
     font-size: 2.5rem;
     max-width: 642.5px;
-    width: 90%
+    width: 90%;
 }
 
 .card-container-P1 {
@@ -121,7 +121,7 @@ main {
     max-width: 500px;
     display: grid;
     justify-content: center;
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
 }
 
 .card-container-P2 {
@@ -129,8 +129,16 @@ main {
     max-width: 500px;
     display: grid;
     justify-content: center;
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
 }
+
+.card-container3 {
+    width: 350px;
+    height: 560px;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+}
+
 
 .card-wrapper-P {
     color: rgb(31,33,51);
@@ -144,7 +152,8 @@ main {
 
 .card-text-P{
     width: 100%;
-    height: auto;
+    max-width: 500px;
+    height: 0px;
     padding: 0 0 150px 0;
     margin: 0;
 }
@@ -178,15 +187,6 @@ main {
    
 }
 
-.card-wrapperr {
-    text-align: start;
-    display: flex;
-    flex-direction: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
 .premiacoes {
     display: grid;
     grid-column: 1 / 3;
@@ -196,20 +196,20 @@ main {
     color: seashell;
     font-size: 2.5rem;
     max-width: 642.5px;
-    width: 90%
+    width: 90%;
 }
+
+
 
 .card {
     width: 300px;
     height: 300px;
-    display: grid;
     border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Tesoura-De-Ouro-E-Rubi-2014.jpg);
+    background-image: url(./img/cards/Campeonato-HairBrasil-2012.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: grayscale(1.0);
+    filter: grayscale(0.5);
     transition: 0.5s ease-in-out;
     
 }
@@ -217,14 +217,12 @@ main {
 .card1 {
     width: 300px;
     height: 300px;
-    display: grid;
     border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Portsio.jpg);
+    background-image: url(./img/cards/Revista-Universotarios-contra-o-cancer.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: grayscale(1.0);
+    filter: grayscale(0.5);
     color: #1E1E2A;
     transition: 0.5s ease-in-out;
     
@@ -233,14 +231,12 @@ main {
 .card2 {
     width: 300px;
     height: 300px;
-    display: grid;
     border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Oscar.jpg);
+    background-image: url(./img/cards/Fair-campeonato-nacional-de-cortes-e-penteados-SegundoLugar.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: grayscale(1.0);
+    filter: grayscale(0.5);
     color: #1E1E2A;
     transition: 0.5s ease-in-out;
     
@@ -249,14 +245,12 @@ main {
 .card3 {
     width: 300px;
     height: 300px;
-    display: grid;
     border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Cosmo.jpg);
+    background-image: url(./img/cards/PromoCa.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: grayscale(1.0);
+    filter: grayscale(0.5);
     color: #1E1E2A;
     transition: 0.5s ease-in-out;
    
@@ -265,14 +259,12 @@ main {
 .card4 {
     width: 300px;
     height: 300px;
-    display: grid;
     border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Premio-exito.jpg);
+    background-image: url(./img/cards/CosmoprofCosmetica-campeonatoDeCortesEBeleza-2005.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: grayscale(1.0);
+    filter: grayscale(0.5);
     color: #1E1E2A;
     transition: 0.5s ease-in-out;
 }
@@ -280,14 +272,12 @@ main {
 .card5 {
     width: 300px;
     height: 300px;
-    display: grid;
     border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/7Campeonato-hair-brasil-2008.jpg);
+    background-image: url(./img/cards/PremioBomExemplo.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: grayscale(1.0);
+    filter: grayscale(0.5);
     color: #1E1E2A;
     transition: 0.5s ease-in-out;
 }
@@ -295,14 +285,12 @@ main {
 .card6 {
     width: 300px;
     height: 300px;
-    display: grid;
     border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Professional-Fair-2005.jpg);
+    background-image: url(./img/cards/7Campeonata-hairBrasil.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: grayscale(1.0);
+    filter: grayscale(0.5);
     color: #1E1E2A;
     transition: 0.5s ease-in-out;
 }
@@ -310,90 +298,28 @@ main {
 .card7 {
     width: 300px;
     height: 300px;
-    display: grid;
     border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Premio-enfase-nacional-2009.jpg);
+    background-image: url(./img/cards/Hair-Brasil-2007.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: grayscale(1.0);
-    color: #1E1E2A;
-    transition: 0.5s ease-in-out;
-}
-
-.card8 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Hair-brasil-campeonato-2012.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: grayscale(1.0);
-    color: #1E1E2A;
-    transition: 0.5s ease-in-out;
-}
-
-.card9 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Professional-fair-2006.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: grayscale(1.0);
-    color: #1E1E2A;
-    transition: 0.5s ease-in-out;
-}
-
-.card10 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Preimo-maos-de-ouro-e-esmeralda-2014.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: grayscale(1.0);
-    color: #1E1E2A;
-    transition: 0.5s ease-in-out;
-}
-
-.card11 {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    border-radius: 100% ;
-    justify-content: space-evenly;
-    background-image: url(./img/Prata-casa-diamante-mg-ivan-candido.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: grayscale(1.0);
+    filter: grayscale(0.5);
     color: #1E1E2A;
     transition: 0.5s ease-in-out;
 }
 
 .card-text {
-    width: 200px;
+    width: 300px;
     position: relative;
     display: grid;
     justify-content: space-evenly;
-    padding: 30px;
+    padding: 30px 0 30px 0;
     font-size: 1.4rem;
 }
 
 .card-wrapper {
     width: 350px;
-    padding-bottom: 20px
+    padding: 0 0 20px 0;
 }
 
 .card-wrapper h2 {
@@ -456,22 +382,6 @@ main {
 }
 
 .card7:hover {
-    filter: unset;
-}
-
-.card8:hover {
-    filter: unset;
-}
-
-.card9:hover {
-    filter: unset;
-}
-
-.card10:hover {
-    filter: unset;
-}
-
-.card11:hover {
     filter: unset;
 }
 
