@@ -135,13 +135,13 @@ main {
 .card-container3 {
     width: 350px;
     height: 560px;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 70px 0px;
     margin: 0;
 }
 
 
 .card-wrapper-P {
-    color: rgb(31,33,51);
+    color: rgb(51, 53, 68);
     font-family: 'Poppins', sans-serif;
     font-size: 2.0rem;
     letter-spacing: 4px;
